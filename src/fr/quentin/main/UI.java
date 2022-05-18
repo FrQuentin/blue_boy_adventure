@@ -1,9 +1,6 @@
 package fr.quentin.main;
 
-import fr.quentin.object.OBJ_Key;
-
 import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.text.DecimalFormat;
 
 public class UI {

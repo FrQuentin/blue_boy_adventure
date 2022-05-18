@@ -1,9 +1,6 @@
 package fr.quentin.main;
 
-import fr.quentin.object.OBJ_Boots;
-import fr.quentin.object.OBJ_Chest;
-import fr.quentin.object.OBJ_Door;
-import fr.quentin.object.OBJ_Key;
+import fr.quentin.entity.NPC_OldMan;
 
 public class AssetSetter {
 
@@ -16,5 +13,12 @@ public class AssetSetter {
 
     public void setObject() {
 
+    }
+
+    public void setNPC() {
+
+        gp.npc[0] = new NPC_OldMan(gp);
+        gp.npc[0].worldX = gp.tileSize * 21;
+        gp.npc[0].worldY = gp.tileSize * 21;
     }
 }
