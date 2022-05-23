@@ -1,7 +1,7 @@
 package fr.quentin.main;
 
+import fr.quentin.entity.Entity;
 import fr.quentin.object.OBJ_Heart;
-import fr.quentin.object.SuperObject;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -38,7 +38,7 @@ public class UI {
         }
 
         // Create hub object
-        SuperObject heart = new OBJ_Heart(gp);
+        Entity heart = new OBJ_Heart(gp);
         heart_full = heart.image;
         heart_half = heart.image2;
         heart_blank = heart.image3;
